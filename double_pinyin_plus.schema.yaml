@@ -37,7 +37,7 @@ schema:
     - 增加 Emoji 支持
 
   dependencies:
-    # - zrm2000
+    - zrm2000
     - melt_eng
     - radical_pinyin	
 
