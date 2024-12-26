@@ -25,10 +25,10 @@ menu:
 switcher:
   caption: 「方案选单」
   hotkeys:
-    - F4
+    # - F4
     - Control+grave
     - Control+Shift+grave
-    # - Alt+grave
+    - Alt+grave
   save_options:  # 开关记忆（方案中的 switches），从方案选单（而非快捷键）切换时会记住的选项，需要记忆的开关不能设定 reset
     - ascii_punct
     - traditionalization
@@ -55,13 +55,13 @@ switcher:
 # inline_ascii 切换到临时英文模式，按回车上屏后回到中文状态
 # noop         屏蔽快捷键，不切换中英，但不要屏蔽 CapsLock
 ascii_composer:
-  good_old_caps_lock: true  # true | false
+  good_old_caps_lock: false  # true | false
   switch_key:
-    Caps_Lock: clear      # commit_code | commit_text | clear
-    Shift_L: commit_code  # commit_code | commit_text | inline_ascii | clear | noop
-    Shift_R: commit_code  # commit_code | commit_text | inline_ascii | clear | noop
-    Control_L: noop       # commit_code | commit_text | inline_ascii | clear | noop
-    Control_R: noop       # commit_code | commit_text | inline_ascii | clear | noop
+    Caps_Lock: commit_code # commit_code | commit_text | clear
+    Shift_L: commit_code   # commit_code | commit_text | inline_ascii | clear | noop
+    Shift_R: commit_code   # commit_code | commit_text | inline_ascii | clear | noop
+    Control_L: noop        # commit_code | commit_text | inline_ascii | clear | noop
+    Control_R: noop        # commit_code | commit_text | inline_ascii | clear | noop
 
 
 ###################################################################################
