@@ -8,7 +8,7 @@
 #
 ---
 name: others
-version: "2024-11-04"
+version: "2024-12-19"
 sort: by_weight
 ...
 ##### 容错词
@@ -29,7 +29,7 @@ sort: by_weight
 # 「伯伯」方言
 伯伯	bo bo
 伯伯	bai bai
-# 「斜」的古音
+# 「斜」的协音读法
 远上寒山石径斜	yuan shang han shan shi jing xie
 远上寒山石径斜	yuan shang han shan shi jing xia
 # 「骑」目前统读 qi
@@ -236,6 +236,18 @@ sort: by_weight
 氙气手电筒	shan qi shou dian tong
 应该	ying gai
 应该	yin gai
+粘贴	zhan tie
+粘贴	nian tie
+高句丽	gao gou li
+高句丽	gao ju li
+角斗士	jue dou shi
+角斗士	jiao dou shi
+缩砂密	su sha mi
+缩砂密	suo sha mi
+迫击炮	pai ji pao
+迫击炮	po ji pao
+关卡	guan qia
+关卡	guan ka	1000
 ### 错字
 曾经	ceng jing
 曾今	ceng jin
