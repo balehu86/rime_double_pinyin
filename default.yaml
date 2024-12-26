@@ -18,14 +18,14 @@ schema_list:
 menu:
   page_size: 5  # 候选词个数
   # alternative_select_labels: [ ①, ②, ③, ④, ⑤, ⑥, ⑦, ⑧, ⑨, ⑩ ]  # 修改候选项标签
-  # alternative_select_keys: ASDFGHJKL  # 如编码字符占用数字键，则需另设选字键
+  # alternative_select_keys: ASDFGHJKL  # 如编码字符占用数字键，则需另设选字键（注意在雾凇中，大写字母也作为编码了）
 
 
 # 方案选单相关
 switcher:
   caption: 「方案选单」
   hotkeys:
-    # - F4
+    - F4
     - Control+grave
     - Control+Shift+grave
     - Alt+grave
@@ -178,14 +178,14 @@ key_binder:
     - { when: composing, accept: Alt+Right, send: Shift+Right }
 
     # 翻页 - =
-    - { when: has_menu, accept: minus, send: Page_Up }
+    - { when: has_menu, accept: minus, send: Page_Up }  # 上一页设置为 paging 时会导致直接上屏并输出减号
     - { when: has_menu, accept: equal, send: Page_Down }
 
     # 翻页 , .
     # - { when: paging, accept: comma, send: Page_Up }
     # - { when: has_menu, accept: period, send: Page_Down }
 
-    # 翻页 [ ]
+    # 翻页 [ ]  ⚠️ 开启时请修改上面以词定字的快捷键
     # - { when: paging, accept: bracketleft, send: Page_Up }
     # - { when: has_menu, accept: bracketright, send: Page_Down }
 
@@ -208,7 +208,7 @@ key_binder:
     # - { when: composing, accept: Control+b, send: Left }
     # - { when: composing, accept: Control+f, send: Right }
     # - { when: composing, accept: Control+a, send: Home }
-    # - { when: composing, accept: Control+e, send: End }ui yj
+    # - { when: composing, accept: Control+e, send: End }
     # - { when: composing, accept: Control+d, send: Delete }
     # - { when: composing, accept: Control+k, send: Shift+Delete }
     # - { when: composing, accept: Control+h, send: BackSpace }
@@ -237,6 +237,11 @@ key_binder:
     - {accept: KP_8, send: 8, when: composing}
     - {accept: KP_9, send: 9, when: composing}
     - {accept: KP_Decimal, send: period, when: composing}
+    # 将小键盘 + - * / 映射到主键盘，使计算器 如 1+2-3*4 可使用小键盘输入
+    - {accept: KP_Multiply, send: asterisk, when: composing}
+    - {accept: KP_Add,      send: plus,     when: composing}
+    - {accept: KP_Subtract, send: minus,    when: composing}
+    - {accept: KP_Divide,   send: slash,    when: composing}
 
 
 # 按键速查
