@@ -83,17 +83,17 @@ engine:
   translators:
     - punct_translator
     - script_translator
-    - lua_translator@date_translator    # 时间、日期、星期
-    - lua_translator@lunar              # 农历
-    - table_translator@custom_phrase    # 自定义短语 custom_phrase_double.txt
-    - table_translator@melt_eng         # 英文输入
-    - table_translator@cn_en            # 中英混合词汇
-    - table_translator@radical_lookup   # 部件拆字反查
-    - lua_translator@unicode            # Unicode
-    - lua_translator@number_translator  # 数字、金额大写
-    - lua_translator@force_gc           # 暴力 G
-    - lua_translator@*calc_translator   # 计算器
-    - table_translator@zrm2000          # zrm2000
+    - lua_translator@*date_translator    # 时间、日期、星期
+    - lua_translator@*lunar              # 农历
+    - table_translator@custom_phrase     # 自定义短语 custom_phrase_double.txt
+    - table_translator@melt_eng          # 英文输入
+    - table_translator@cn_en             # 中英混合词汇
+    - table_translator@radical_lookup    # 部件拆字反查
+    - lua_translator@*unicode            # Unicode
+    - lua_translator@*number_translator  # 数字、金额大写
+    - lua_translator@*calc_translator    # 计算器
+    - lua_translator@*force_gc           # 暴力 GC
+    - table_translator@zrm2000           # zrm2000
   filters:
     - lua_filter@*corrector                         # 错音错字提示
     - reverse_lookup_filter@radical_reverse_lookup  # 部件拆字滤镜
@@ -117,12 +117,6 @@ date_translator:
 
 # Lua 配置：农历的触发关键字
 lunar: lunar  # 农历： 二〇二三年冬月二十 癸卯年（兔）冬月二十
-
-
-# Lua 配置：为 corrector 格式化 comment，占位符为 {comment}
-# 默认 "{comment}" 输入 hun dun 时会在「馄饨」旁边生成 hún tun 的 comment
-# 例如左右加个括号 "({comment})" 就会变成 (hún tun)
-corrector: "{comment}"
 
 
 # Lua 配置: 降低部分英语单词在候选项的位置。
