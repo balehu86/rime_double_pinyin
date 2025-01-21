@@ -11,7 +11,6 @@ schema_list:
   # 可以直接删除或注释不需要的方案，对应的 *.schema.yaml 方案文件也可以直接删除
   # 除了 t9，它依赖于 rime_ice，用九宫格别删 rime_ice.schema.yaml
   - schema: rime_ice               # 雾凇拼音（全拼）
-  - schema: double_pinyin          # 自然码双拼
   - schema: double_pinyin_plus     # 我修改得自然码双拼
 
 # 菜单
@@ -57,9 +56,9 @@ switcher:
 ascii_composer:
   good_old_caps_lock: true  # true | false
   switch_key:
-    Caps_Lock: clear      # commit_code | commit_text | clear
-    Shift_L: commit_code  # commit_code | commit_text | inline_ascii | clear | noop
-    Shift_R: noop         # commit_code | commit_text | inline_ascii | clear | noop
+    Caps_Lock: inline_ascii # commit_code | commit_text | clear
+    Shift_L: inline_ascii  # commit_code | commit_text | inline_ascii | clear | noop
+    Shift_R: inline_ascii  # commit_code | commit_text | inline_ascii | clear | noop
     Control_L: noop       # commit_code | commit_text | inline_ascii | clear | noop
     Control_R: noop       # commit_code | commit_text | inline_ascii | clear | noop
 
