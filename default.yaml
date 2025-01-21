@@ -55,13 +55,13 @@ switcher:
 # inline_ascii 切换到临时英文模式，按回车上屏后回到中文状态
 # noop         屏蔽快捷键，不切换中英，但不要屏蔽 CapsLock
 ascii_composer:
-  good_old_caps_lock: false  # true | false
+  good_old_caps_lock: true  # true | false
   switch_key:
-    Caps_Lock: commit_code # commit_code | commit_text | clear
-    Shift_L: commit_code   # commit_code | commit_text | inline_ascii | clear | noop
-    Shift_R: commit_code   # commit_code | commit_text | inline_ascii | clear | noop
-    Control_L: noop        # commit_code | commit_text | inline_ascii | clear | noop
-    Control_R: noop        # commit_code | commit_text | inline_ascii | clear | noop
+    Caps_Lock: clear      # commit_code | commit_text | clear
+    Shift_L: commit_code  # commit_code | commit_text | inline_ascii | clear | noop
+    Shift_R: noop         # commit_code | commit_text | inline_ascii | clear | noop
+    Control_L: noop       # commit_code | commit_text | inline_ascii | clear | noop
+    Control_R: noop       # commit_code | commit_text | inline_ascii | clear | noop
 
 
 ###################################################################################
@@ -79,6 +79,7 @@ ascii_composer:
 #              '~' 是半角的，
 #              '`'（反引号）没有改成 '·'（间隔号）。
 punctuator:
+  # digit_separators: ",.:" # 在此处指定的字符，在数字后被输入，若再次输入数字，则连同数字直接上屏；若双击，则恢复映射。 # librime >= 28a234f
   full_shape:
     ' ' : { commit: '　' }
     ',' : { commit: ， }
