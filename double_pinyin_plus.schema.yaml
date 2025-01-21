@@ -240,13 +240,14 @@ custom_phrase:
   enable_sentence: false   # 禁止造句
   initial_quality: 99      # custom_phrase 的权重应该比 pinyin 和 melt_eng 大
 
+
+# 自然码2000
 zrm2000:
-  dictionary: zrm2000
-  enable_user_dict: false
-  # user_dict: zrm2000
-  # db_class: stabledb
-  enable_sentence: false
-  max_phrase_length: 1.5
+  dictionary: zrm2000      # 挂载词库 zrm2000.dict.yaml
+  enable_user_dict: false  # 禁用用户词典
+  db_class: stabledb
+  enable_sentence: false   # 禁止造句
+
 
 # Emoji
 emoji:
