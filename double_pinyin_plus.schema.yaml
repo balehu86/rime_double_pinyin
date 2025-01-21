@@ -28,8 +28,8 @@ schema:
     - mutoe <mutoe@foxmail.com>
     - Dvel
     - balehu <balehu86@gmail.com>
-  description: |
-    基于雾凇拼音 - 自然码双拼+zrm2000原方案。
+  description:
+    - 自然码双拼+zrm2000原方案。
     - 增加自定义词库(custom phrase)。
     - 增加英文输入支持，支持大写字母
     - 增加自然码辅码支持(自然码2000)
