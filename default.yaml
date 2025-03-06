@@ -3,7 +3,7 @@
 
 
 # 要比共享目录的同名文件的 config_version 大才可以生效
-config_version: '2024-02-05'
+config_version: '2025-02-24'
 
 
 # 方案列表
@@ -25,8 +25,8 @@ switcher:
   caption: 「方案选单」
   hotkeys:
     - F4
-    # - Control+grave「方案选单」
-    # - Control+Shift+grave
+    - Control+grave
+    - Control+Shift+grave
     # - Alt+grave
   save_options:  # 开关记忆（方案中的 switches），从方案选单（而非快捷键）切换时会记住的选项，需要记忆的开关不能设定 reset
     - ascii_punct
@@ -34,7 +34,7 @@ switcher:
     - emoji
     - full_shape
     - search_single_char
-  fold_options: false           # 呼出时是否折叠，多方案时建议折叠 true ，一个方案建议展开 false
+  fold_options: true            # 呼出时是否折叠，多方案时建议折叠 true ，一个方案建议展开 false
   abbreviate_options: true      # 折叠时是否缩写选项
   option_list_separator: ' / '  # 折叠时的选项分隔符
 
@@ -59,6 +59,7 @@ ascii_composer:
     Caps_Lock: commit_code # commit_code | commit_text | clear
     Shift_L: commit_code  # commit_code | commit_text | inline_ascii | clear | noop
     Shift_R: commit_code  # commit_code | commit_text | inline_ascii | clear | noop
+    Shift_R: noop         # commit_code | commit_text | inline_ascii | clear | noop
     Control_L: noop       # commit_code | commit_text | inline_ascii | clear | noop
     Control_R: noop       # commit_code | commit_text | inline_ascii | clear | noop
 
@@ -78,7 +79,8 @@ ascii_composer:
 #              '~' 是半角的，
 #              '`'（反引号）没有改成 '·'（间隔号）。
 punctuator:
-  # digit_separators: ",.:" # 在此处指定的字符，在数字后被输入，若再次输入数字，则连同数字直接上屏；若双击，则恢复映射。 # librime >= 28a234f
+  digit_separators: ",.:"  # 在此处指定的字符，在数字后被输入，若再次输入数字，则连同数字直接上屏；若双击，则恢复映射。 # librime >= 28a234f
+  # digit_separator_action: commit  # 关闭上述行为 librime >= 1.13.1
   full_shape:
     ' ' : { commit: '　' }
     ',' : { commit: ， }
