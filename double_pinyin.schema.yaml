@@ -90,7 +90,7 @@ engine:
     - lua_translator@*number_translator  # 数字、金额大写
     - lua_translator@*calc_translator    # 计算器
     - lua_translator@*force_gc           # 暴力 GC
-    - table_translator@zrm2000           # zrm2000
+    # - table_translator@zrm2000           # zrm2000
   filters:
     - lua_filter@*corrector                         # 错音错字提示
     - reverse_lookup_filter@radical_reverse_lookup  # 部件拆字滤镜
@@ -242,12 +242,12 @@ custom_phrase:
   initial_quality: 99      # custom_phrase 的权重应该比 pinyin 和 melt_eng 大
 
 
-# 自然码2000
-zrm2000:
-  dictionary: zrm2000      # 挂载词库 zrm2000.dict.yaml
-  enable_user_dict: false  # 禁用用户词典
-  db_class: stabledb
-  enable_sentence: false   # 禁止造句
+# # 自然码2000
+# zrm2000:
+#   dictionary: zrm2000      # 挂载词库 zrm2000.dict.yaml
+#   enable_user_dict: false  # 禁用用户词典
+#   db_class: tabledb
+#   enable_sentence: false   # 禁止造句
 
 
 # Emoji
