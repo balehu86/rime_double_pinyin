@@ -20,22 +20,12 @@ schema:
   version: "1"
   author:
     - Dvel
-    - 佛振 <chen.sst@gmail.com>
-    - mutoe <mutoe@foxmail.com>
-    - balehu <balehu86@gmail.com>
   description: |
     雾凇拼音 - 自然码双拼
     https://github.com/iDvel/rime-ice
-    - 自然码双拼+zrm2000原方案。
-    - 增加自定义词库(custom phrase)。
-    - 增加英文输入支持，支持大写字母
-    - 增加自然码辅码支持(自然码2000)
-    - 增加 Emoji 支持
-
   dependencies:
     - melt_eng        # 英文输入，作为次翻译器挂载到拼音方案
     - radical_pinyin  # 部件拆字，反查及辅码
-    # - zrm2000
 
 
 # 开关
@@ -51,9 +41,6 @@ switches:
     states: [ 简, 繁 ]
   - name: emoji
     states: [ 💀, 😄 ]
-    reset: 1
-  - name: others
-    states: [符号关 , 符号开 ]
     reset: 1
   - name: full_shape
     states: [ 半角, 全角 ]
@@ -94,7 +81,6 @@ engine:
     - lua_translator@*number_translator  # 数字、金额大写
     - lua_translator@*calc_translator    # 计算器
     - lua_translator@*force_gc           # 暴力 GC
-    # - table_translator@zrm2000           # zrm2000
   filters:
     - lua_filter@*corrector                         # 错音错字提示
     - reverse_lookup_filter@radical_reverse_lookup  # 部件拆字滤镜
@@ -102,7 +88,6 @@ engine:
     - lua_filter@*pin_cand_filter                   # 置顶候选项（顺序要求：置顶候选项 > Emoji > 简繁切换）
     - lua_filter@*reduce_english_filter             # 降低部分英语单词在候选项的位置
     - simplifier@emoji                              # Emoji
-    - simplifier@others                             # 其他符号
     - simplifier@traditionalize                     # 简繁切换
     - lua_filter@*search@radical_pinyin             # 部件拆字辅码
     - uniquifier                                    # 去重
@@ -247,28 +232,12 @@ custom_phrase:
   initial_quality: 99      # custom_phrase 的权重应该比 pinyin 和 melt_eng 大
 
 
-# # 自然码2000
-# zrm2000:
-#   dictionary: zrm2000      # 挂载词库 zrm2000.dict.yaml
-#   enable_user_dict: false  # 禁用用户词典
-#   db_class: tabledb
-#   enable_sentence: false   # 禁止造句
-
-
 # Emoji
 emoji:
   option_name: emoji         # 对应 switches 中的 name
   opencc_config: emoji.json  # 选择要加载的 OpenCC 配置
   inherit_comment: false     # 在 corrector.lua 及反查中，emoji 的 comment 显示为空
   tips: all                  # 转换提示：all 都显示 | char 仅单字显示 | none 不显示。
-
-
-# opencc/others的其它符号配置
-others:
-  option_name: others        # 对应 switches 中的 others
-  opencc_config: others.json  # 选择要加载的 OpenCC 配置
-  inherit_comment: false      # 在 corrector.lua 及反查中，others 的 comment 显示为空
-  tips: all                   # 转换提示：all 都显示 | char 仅单字显示 | none 不显示。
 
 
 # 简繁切换
