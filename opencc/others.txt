@@ -616,6 +616,8 @@
 劳伦花恋	劳伦花恋 ローレン花恋
 美咲佳奈	美咲佳奈 美咲かんな
 春阳萌花	春阳萌花 春陽モカ
+彩月七绪	彩月七绪 彩月七緒
+濑户环奈	濑户环奈 瀬戸環奈
 ----------生活大爆炸&老友记	----------
 谢耳朵	谢耳朵 Sheldon
 谢尔顿	谢尔顿 Sheldon
@@ -1032,7 +1034,6 @@ eject	eject ⏏
 硫酸钠	硫酸钠 Na₂SO₄
 亚硝酸钠	亚硝酸钠 NaNO₂
 纤维素	纤维素 (C₆H₁₀O₅)n
-铁粉	铁粉 Fe
 三聚氰胺	三聚氰胺 C₃H₆N₆
 丁烷	丁烷 CH₃CH₂CH₂CH₃
 食醋	食醋 CH₃COOH
@@ -1486,26 +1487,42 @@ n次幂	n次幂 ⁿ
 垂直	垂直 ⟂
 lambda演算	lambda演算 λ演算
 ----------单位	----------
+平方毫米	平方毫米 mm²
 平方厘米	平方厘米 cm²
 平方分米	平方分米 dm²
 平方米	平方米 m²
 立方厘米	立方厘米 cm³
+升	升 L
 立方分米	立方分米 dm³
 立方米	立方米 m³
 度	度 °
 摄氏度	摄氏度 °C
 华氏度	华氏度 °F
+小时	小时 h hour
+分钟	分钟 min minute
+秒	秒 s second
 毫秒	毫秒 ms millisecond
 微秒	微秒 μs microsecond
 纳秒	纳秒 ns nanosecond
 皮秒	皮秒 ps picosecond
 飞秒	飞秒 fs femtosecond
 阿秒	阿秒 as attosecond
+公里	公里 km kilometer
+千米	千米 km kilometer
+米	米 m meter
+分米	分米 dm decimeter
+厘米	厘米 cm centimeter
 毫米	毫米 mm millimeter
 微米	微米 μm micrometer
 纳米	纳米 nm nanometer
 英寸	英寸 吋
 千瓦	千瓦 瓩
+千帕	千帕 kPa
+兆帕	兆帕 MPa N/mm²
+牛顿	牛顿 N
+千牛	千牛 kN
+牛米	牛米 N⋅m
+千牛米	千牛米 kN⋅m
 ----------笔画标点	----------
 点	点 · 丶
 横	横 一
@@ -1521,6 +1538,8 @@ lambda演算	lambda演算 λ演算
 连接符	连接符 —
 连字符	连字符 －
 破折号	破折号 ——
+波浪号	波浪号 ~
+到	到 ~ - －
 隔音符号	隔音符号 ’
 反引号	反引号 `
 反问号	反问号 ¿
@@ -1571,6 +1590,7 @@ C谱号	C谱号 𝄡
 鲁迅	鲁迅 👨🏻
 周树人	周树人 👨🏻
 鲁迅喂奶	鲁迅喂奶 👨🏻‍🍼
+牛马	牛马 🐮🐴
 rime	rime 㞢
 中州韵	中州韵 Rime
 鼠须管	鼠须管 Squirrel
@@ -1617,6 +1637,7 @@ Twitter	Twitter 𝕏
 梅赛德斯-奔驰	梅赛德斯-奔驰 Mercedes-Benz
 naive	naive naïve
 cafe	cafe café
+cliche	cliche cliché
 resume	resume résumé
 ankh	ankh ☥
 生命之符	生命之符 ☥
