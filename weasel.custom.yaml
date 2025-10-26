@@ -6,4 +6,4 @@ customization:
   rime_version: 1.13.1
 patch:
   "style/color_scheme": purity_of_form_custom
-  "style/horizontal": ture
+  "style/horizontal": true
