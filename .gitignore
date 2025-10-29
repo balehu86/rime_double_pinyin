@@ -19,3 +19,10 @@ cn_dicts/temp.txt
 rime_console
 rime_deployer
 rime_patch
+
+double_pinyin_abc.schema.yaml
+double_pinyin_flypy.schema.yaml
+double_pinyin_jiajia.schema.yaml
+double_pinyin_mspy.schema.yaml
+double_pinyin_sogou.schema.yaml
+double_pinyin_ziguang.schema.yaml
