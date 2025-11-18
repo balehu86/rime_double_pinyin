@@ -17,7 +17,7 @@
 # 转化应当大写的单词
 ---
 name: en
-version: "2025-10-23"
+version: "2025-11-10"
 sort: by_weight
 ...
 # +_+
@@ -912,6 +912,8 @@ antivirus	antivirus
 Anton	Anton
 Antonio	Antonio
 Antony	Antony
+antonym	antonym
+antonymous	antonymous
 ants	ants
 anxiety	anxiety
 anxious	anxious
@@ -1899,7 +1901,7 @@ bell	bell
 Bell	Bell
 Bella	Bella
 belle	belle
-Bellevue	Bellevue
+# Bellevue	Bellevue
 bellhop	bellhop
 bells	bells
 Bellsouth	Bellsouth
@@ -3153,7 +3155,7 @@ Celtic	Celtic
 cement	cement
 cemeteries	cemeteries
 cemetery	cemetery
-Cen	Cen
+# Cen	Cen
 censor	censor
 censorship	censorship
 census	census
@@ -3392,6 +3394,7 @@ Chico	Chico
 chief	chief
 chiefly	chiefly
 chiefs	chiefs
+chiffon	chiffon
 child	child
 childbirth	childbirth
 childcare	childcare
@@ -3854,6 +3857,7 @@ colon	colon
 colonel	colonel
 colonial	colonial
 colonies	colonies
+colonnade	colonnade
 colony	colony
 color	color
 Colorado	Colorado
@@ -5295,6 +5299,7 @@ democratic	democratic
 democrats	democrats
 demographic	demographic
 demographics	demographics
+demolish	demolish
 demolition	demolition
 demon	demon
 demonic	demonic
@@ -5929,6 +5934,7 @@ documenting	documenting
 documents	documents
 # dod	dod
 dodge	dodge
+dodger	dodger
 dodgers	dodgers
 doe	doe
 does	does
@@ -8285,6 +8291,7 @@ GeForce	GeForce
 # geile	geile
 geisha	geisha
 gel	gel
+gelatin	gelatin
 gem	gem
 gemini	gemini
 gems	gems
@@ -10124,6 +10131,7 @@ insight	insight
 insightful	insightful
 insights	insights
 insignificant	insignificant
+insipid	insipid
 insist	insist
 insisted	insisted
 insistent	insistent
@@ -10318,6 +10326,7 @@ intrude	intrude
 intrusion	intrusion
 intuition	intuition
 intuitive	intuitive
+intuitively	intuitively
 Inuyasha	Inuyasha
 invade	invade
 invalid	invalid
@@ -13170,6 +13179,7 @@ nav	nav
 # NAV	NAV
 Navajo	Navajo
 naval	naval
+navel	navel
 navigate	navigate
 navigation	navigation
 navigational	navigational
@@ -13846,6 +13856,7 @@ operations	operations
 operative	operative
 operator	operator
 operators	operators
+Ophelia	Ophelia
 ophthalmology	ophthalmology
 opinion	opinion
 opinions	opinions
@@ -14465,6 +14476,7 @@ Pedro	Pedro
 pee	pee
 peeing	peeing
 peek	peek
+peekaboo	peekaboo
 peel	peel
 peep	peep
 peer	peer
@@ -15498,6 +15510,7 @@ profitability	profitability
 profitable	profitable
 profits	profits
 profound	profound
+profoundly	profoundly
 prog	prog
 prognosis	prognosis
 prognosticate	prognosticate
@@ -16123,6 +16136,8 @@ recall	recall
 recalled	recalled
 recalls	recalls
 recap	recap
+recapitulate	recapitulate
+recapitulation	recapitulation
 recede	recede
 receipt	receipt
 receipts	receipts
@@ -16156,6 +16171,7 @@ reclamation	reclamation
 recognise	recognise
 recognised	recognised
 recognition	recognition
+recognizable	recognizable
 recognize	recognize
 recognized	recognized
 recognizes	recognizes
@@ -16342,6 +16358,7 @@ regulations	regulations
 regulator	regulator
 regulators	regulators
 regulatory	regulatory
+regulex	regulex
 rehab	rehab
 rehabilitation	rehabilitation
 rehearsal	rehearsal
@@ -18898,6 +18915,7 @@ stimulation	stimulation
 stimuli	stimuli
 stimulus	stimulus
 sting	sting
+stinker	stinker
 stir	stir
 Stirling	Stirling
 stirring	stirring
@@ -19233,6 +19251,8 @@ superannuation	superannuation
 superb	superb
 superficial	superficial
 superfluous	superfluous
+superhero	superhero
+superheroes	superheroes
 superintendent	superintendent
 superior	superior
 superiority	superiority
@@ -20705,6 +20725,8 @@ ultraviolet	ultraviolet
 # um	um
 # uma	uma
 umami	umami
+umbilical	umbilical
+umbilicus	umbilicus
 umbrella	umbrella
 # umd	umd
 # uml	uml
@@ -20846,6 +20868,7 @@ unrated	unrated
 unread	unread
 unreal	unreal
 unreasonable	unreasonable
+unrecognizable	unrecognizable
 unregistered	unregistered
 unrelated	unrelated
 unresolved	unresolved
@@ -21297,6 +21320,7 @@ viscosity	viscosity
 viscous	viscous
 visibility	visibility
 visible	visible
+visibly	visibly
 vision	vision
 visionary	visionary
 visions	visions
@@ -22222,6 +22246,7 @@ zoo	zoo
 zoofilia	zoofilia
 zoology	zoology
 zoom	zoom
+zoomorphic	zoomorphic
 zoophilia	zoophilia
 # zshops	zshops
 # zu	zu
