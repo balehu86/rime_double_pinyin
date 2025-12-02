@@ -2,13 +2,14 @@ customization:
   distribution_code_name: Weasel
   distribution_version: 0.17.4
   generator: "Rime::SwitcherSettings"
-  modified_time: "Sun Oct 26 10:20:27 2025"
+  modified_time: "Tue Dec  2 22:38:09 2025"
   rime_version: 1.13.1
 patch:
+  ascii_composer:
+    good_old_caps_lock: true
+    switch_key: {Caps_Lock: clear, Control_L: noop, Control_R: noop, Shift_L: commit_code, Shift_R: inline_ascii}
   schema_list:
     - {schema: double_pinyin}
-  switcher/hotkeys:
-    # - F4
-    - Control+grave
-    - Control+Shift+grave
-    # - Alt+grave
+  "switcher/hotkeys":
+    - "Control+grave"
+    - "Control+Shift+grave"
