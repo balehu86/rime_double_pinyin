@@ -1,7 +1,4 @@
 patch:
-  # 扩充词库
-  #translator/dictionary: luna_pinyin.extended
-
   # 扩充符号库
   #punctuator/import_preset: symbols
   #recognizer/patterns/punct: "^/([A-Z|a-z]*|[0-9]|10)$"
