@@ -23,26 +23,16 @@
 #
 # 此行之后不能写注释
 13227086198	ubjihk
-19504459987	ubjihk
 02210765	xthk
-ε	yipuxils
-Ε	yipuxils
-ζ	zzta
-Ζ	zzta
 θ	szta
 Θ	szta
 λ	ljmuda
 Λ	ljmuda
 μ	mq
-ν	nq
 π	pl
 ρ	rb
 Σ	szgema
-σ	szgema
-τ	tk
 φ	fl
 Φ	fl
-Φ	vijy
-C	vijy
 Ω	oumiga
 □	ghbj
