@@ -2,17 +2,15 @@ customization:
   distribution_code_name: Weasel
   distribution_version: 0.17.4
   generator: "Rime::SwitcherSettings"
-  modified_time: "Tue Dec  2 22:38:09 2025"
+  modified_time: "Fri Mar  6 14:11:52 2026"
   rime_version: 1.13.1
 patch:
+  abbreviate_options: false
   ascii_composer:
     good_old_caps_lock: true
     switch_key: {Caps_Lock: clear, Control_L: noop, Control_R: noop, Shift_L: commit_code, Shift_R: inline_ascii}
+  fold_options: false
   schema_list:
     - {schema: double_pinyin}
   switcher:
-    hotkeys:
-      - "Control+grave"
-      - "Control+Shift+grave"
-  fold_options: false            # 呼出时是否折叠，多方案时建议折叠 true ，一个方案建议展开 false
-  abbreviate_options: false      # 折叠时是否缩写选项
+    hotkeys: ["Control+grave", "Control+Shift+grave"]
