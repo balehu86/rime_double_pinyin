@@ -14,10 +14,6 @@
 				"dicts": [
 					{
 						"type": "text",
-						"file": "ss.txt"
-					},
-					{
-						"type": "text",
 						"file": "emoji.txt"
 					},
 					{
