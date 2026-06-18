@@ -22,7 +22,7 @@
 # 需要注音的字词设定在 others/script/rime/需要注音.txt
 ---
 name: tencent
-version: "2026-06-01"
+version: "2026-06-09"
 sort: by_weight
 columns:
   - text
@@ -575933,7 +575933,6 @@ columns:
 杀人须见血	100
 杀人魔头	100
 杀人魔王	100
-杀人鲸	100
 杀伐之气	100
 杀伐果决	100
 杀伤力十足	100

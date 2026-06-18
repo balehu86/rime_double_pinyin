@@ -3248,7 +3248,7 @@
 #///
 ---
 name: base
-version: "2026-06-01"
+version: "2026-06-09"
 sort: by_weight
 ...
 # +_+
@@ -12329,6 +12329,7 @@ sort: by_weight
 白军	bai jun	18
 白君实	bai jun shi	1
 败军之将	bai jun zhi jiang	940
+白卡	bai ka	100
 白卡卡	bai ka ka	2
 掰开	bai kai	8455
 摆开	bai kai	8115
@@ -12979,6 +12980,7 @@ sort: by_weight
 白犬	bai quan	222
 百犬	bai quan	111
 摆拳	bai quan	101
+败犬	bai quan	100
 拜泉	bai quan	1
 百犬吠声	bai quan fei sheng	7
 拜泉县	bai quan xian	755
@@ -13478,6 +13480,7 @@ sort: by_weight
 白通汤	bai tong tang	4
 白头	bai tou	1313
 掰头	bai tou	333
+摆头	bai tou	100
 白头鹎	bai tou bei	1111
 白头鹎雏鸟	bai tou bei chu niao	1
 白头不相离	bai tou bu xiang li	7
@@ -16371,6 +16374,7 @@ sort: by_weight
 棒棒鸭	bang bang ya	135
 帮帮主	bang bang zhu	874
 膀臂	bang bi	710
+邦比	bang bi	1
 邦比乐儿	bang bi le er	2
 傍边的	bang bian de	61
 傍边儿	bang bian er	9999
@@ -21898,6 +21902,7 @@ sort: by_weight
 北面	bei mian	43855
 碑面	bei mian	2222
 被面	bei mian	111
+杯面	bei mian	100
 背面进攻	bei mian jin gong	20
 被免职	bei mian zhi	4825
 贝苗	bei miao	38
@@ -24137,6 +24142,7 @@ sort: by_weight
 蹦跶	beng da	1135
 绷带	beng dai	25545
 绷带达人	beng dai da ren	1
+崩档	beng dang	1
 蹦到	beng dao	9999
 崩倒	beng dao	300
 绷得	beng de	6875
@@ -27814,6 +27820,7 @@ sort: by_weight
 变数	bian shu	36775
 遍数	bian shu	2835
 编书	bian shu	2165
+编述	bian shu	1
 变数器	bian shu qi	25
 变数转换	bian shu zhuan huan	1
 边刷	bian shua	9999
@@ -30437,6 +30444,7 @@ sort: by_weight
 冰簟银床梦不成	bing dian yin chuang meng bu cheng	1
 冰点与沸点	bing dian yu fei dian	175
 冰雕	bing diao	9140
+冰钓	bing diao	100
 冰雕连	bing diao lian	160
 冰雕展	bing diao zhan	1283
 冰雕展览	bing diao zhan lan	1180
@@ -30755,6 +30763,7 @@ sort: by_weight
 病急	bing ji	4785
 冰肌	bing ji	1835
 病机	bing ji	273
+并击	bing ji	100
 病鸡	bing ji	4
 屏迹	bing ji	2
 丙级队	bing ji dui	285
@@ -44338,6 +44347,7 @@ sort: by_weight
 # 曹谨	cao jin	0
 曹金玉	cao jin yu	163
 漕泾	cao jing	1420
+草径	cao jing	1
 曹靖华	cao jing hua	29
 曹景行	cao jing xing	1504
 草就	cao jiu	9999
@@ -120841,6 +120851,7 @@ sort: by_weight
 佛国	fo guo	12845
 佛号	fo hao	13750
 佛会	fo hui	9999
+佛偈	fo ji	100
 佛家	fo jia	22455
 佛甲草	fo jia cao	1100
 佛家弟子	fo jia di zi	580
@@ -165037,6 +165048,7 @@ sort: by_weight
 横殖短腺吸虫	heng zhi duan xian xi chong	1
 恒直公式	heng zhi gong shi	5
 横制颓波	heng zhi tui bo	2
+衡中	heng zhong	100
 横中流兮扬素波	heng zhong liu xi yang su bo	4
 横轴	heng zhou	3780
 # 横州	heng zhou	0
@@ -263285,6 +263297,7 @@ sort: by_weight
 马玉玉	ma yu yu	129
 码元	ma yuan	461
 麻圆	ma yuan	219
+马原	ma yuan	100
 马援	ma yuan	57
 马院	ma yuan	4
 # 马园	ma yuan	0
@@ -287732,6 +287745,7 @@ sort: by_weight
 你几号	ni ji hao	411
 你计划	ni ji hua	341
 你几级	ni ji ji	1348
+逆戟鲸	ni ji jing	100
 你既然是	ni ji ran shi	289
 你几岁	ni ji sui	1195
 你几岁了	ni ji sui le	665
@@ -325523,6 +325537,7 @@ sort: by_weight
 热传	re chuan	9999
 热传导	re chuan dao	5845
 热词	re ci	9999
+热刺	re ci	725
 热刺队	re ci dui	725
 热打	re da	15
 热打码机	re da ma ji	96
@@ -338651,6 +338666,7 @@ sort: by_weight
 砂仁糕	sha ren gao	2
 杀人鬼	sha ren gui	124
 杀人技	sha ren ji	145
+杀人鲸	sha ren jing	100
 杀人狂	sha ren kuang	7790
 杀人狂魔	sha ren kuang mo	178
 杀人漫画	sha ren man hua	196
@@ -341178,6 +341194,7 @@ sort: by_weight
 上步中学	shang bu zhong xue	23
 上菜	shang cai	14170
 伤财	shang cai	1400
+上财	shang cai	10
 上裁	shang cai	2
 # 上蔡	shang cai	0
 上彩色	shang cai se	495
@@ -404453,6 +404470,7 @@ sort: by_weight
 挖土	wa tu	6000
 挖土豆	wa tu dou	157
 挖土机	wa tu ji	2625
+蛙腿	wa tui	100
 娃娃	wa wa	152500
 哇哇	wa wa	13915
 挖挖	wa wa	2725
@@ -415456,6 +415474,7 @@ sort: by_weight
 为主轴	wei zhu zhou	3675
 为转移	wei zhuan yi	12250
 伪装	wei zhuang	69320
+卫庄	wei zhuang	10
 # 未庄	wei zhuang	0
 # 韦庄	wei zhuang	0
 伪装成	wei zhuang cheng	12535
@@ -509851,6 +509870,7 @@ sort: by_weight
 杂骨	za gu	781
 杂菇	za gu	345
 杂菇煲	za gu bao	24
+砸挂	za gua	100
 杂果	za guo	2405
 砸过	za guo	1220
 砸锅	za guo	1135
@@ -515862,6 +515882,7 @@ sort: by_weight
 炸鹿尾儿	zha lu wei er	13
 扎马步	zha ma bu	8964
 扎麻什乡	zha ma shi xiang	7
+炸麦	zha mai	100
 炸馒头	zha man tou	375
 炸毛	zha mao	1111
 渣猫	zha mao	233
@@ -517976,6 +517997,7 @@ sort: by_weight
 张坊中学	zhang fang zhong xue	6
 张飞	zhang fei	41615
 长肥	zhang fei	111
+张菲	zhang fei	1
 # 张斐	zhang fei	0
 # 张菲	zhang fei	0
 张飞飞	zhang fei fei	46
@@ -518846,6 +518868,7 @@ sort: by_weight
 张慎言	zhang shen yan	2
 掌声	zhang sheng	133245
 涨升	zhang sheng	3395
+张生	zhang sheng	1
 # 张声	zhang sheng	0
 掌声不绝	zhang sheng bu jue	305
 张生记	zhang sheng ji	3298
@@ -524568,6 +524591,7 @@ sort: by_weight
 真丝	zhen si	20010
 真似	zhen si	1500
 真死	zhen si	1070
+真嗣	zhen si	100
 真丝绸	zhen si chou	1095
 真丝面料	zhen si mian liao	1245
 真怂	zhen song	1111
@@ -552924,6 +552948,7 @@ sort: by_weight
 奏状	zou zhuang	22
 邹庄	zou zhuang	1
 走子	zou zi	525
+走资	zou zi	100
 走自己	zou zi ji	68
 走自己的路	zou zi ji de lu	20320
 走资派	zou zi pai	3190
