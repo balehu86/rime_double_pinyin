@@ -17,7 +17,7 @@
 # 转化应当大写的单词
 ---
 name: en
-version: "2026-06-20"
+version: "2026-07-11"
 sort: by_weight
 ...
 # +_+
@@ -972,6 +972,7 @@ apartments	apartments
 # ape	ape
 aperture	aperture
 apex	apex
+aphid	aphid
 Aphrodite	Aphrodite
 API	API
 APIs	APIs
@@ -1941,7 +1942,7 @@ believers	believers
 believes	believes
 believing	believing
 Belize	Belize
-belkin	belkin
+Belkin	Belkin
 bell	bell
 Bell	Bell
 Bella	Bella
@@ -3099,6 +3100,7 @@ cars	cars
 Carson	Carson
 cart	cart
 Carte	Carte
+cartel	cartel
 carter	carter
 Cartier	Cartier
 cartilage	cartilage
@@ -3968,6 +3970,9 @@ collier	collier
 Collins	Collins
 collision	collision
 collisions	collisions
+collocate	collocate
+collocation	collocation
+colloquial	colloquial
 cologne	cologne
 Colombia	Colombia
 Colombian	Colombian
@@ -5077,6 +5082,7 @@ cycle	cycle
 cycles	cycles
 cyclic	cyclic
 cycling	cycling
+cyclist	cyclist
 cyclone	cyclone
 Cygwin	Cygwin
 cylinder	cylinder
@@ -6128,6 +6134,7 @@ documented	documented
 documenting	documenting
 documents	documents
 # dod	dod
+dodecahedron	dodecahedron
 dodge	dodge
 dodger	dodger
 dodgers	dodgers
@@ -6708,7 +6715,7 @@ elite	elite
 elixir	elixir
 Eliza	Eliza
 Elizabeth	Elizabeth
-# elk	elk
+elk	elk
 # ella	ella
 # elle	elle
 Ellen	Ellen
@@ -7591,6 +7598,7 @@ faster	faster
 fastest	fastest
 fat	fat
 fatal	fatal
+fatality	fatality
 fate	fate
 father	father
 fathers	fathers
@@ -9181,6 +9189,7 @@ hall	hall
 hallmark	hallmark
 Halloween	Halloween
 halls	halls
+hallucination	hallucination
 halo	halo
 halogen	halogen
 halt	halt
@@ -9532,6 +9541,7 @@ heterogeneous	heterogeneous
 Hewitt	Hewitt
 hewlett	hewlett
 hex	hex
+hexahedron	hexahedron
 hey	hey
 # hf	hf
 # hg	hg
@@ -9987,6 +9997,7 @@ Icelandic	Icelandic
 # ich	ich
 icon	icon
 icons	icons
+icosahedron	icosahedron
 ICQ	ICQ
 # ics	ics
 ICT	ICT
@@ -11203,7 +11214,7 @@ keeper	keeper
 keeping	keeping
 keeps	keeps
 Keith	Keith
-kelkoo	kelkoo
+# kelkoo	kelkoo
 Keller	Keller
 kelley	kelley
 Kellogg	Kellogg
@@ -12072,6 +12083,10 @@ Lohan	Lohan
 loin	loin
 loins	loins
 Lois	Lois
+loiter	loiter
+loitered	loitered
+loitering	loitering
+loiters	loiters
 LOL	LOL
 Lola	Lola
 Lolita	Lolita
@@ -13066,6 +13081,7 @@ Miquelon	Miquelon
 # mira	mira
 miracle	miracle
 miracles	miracles
+miraculous	miraculous
 mirage	mirage
 Miranda	Miranda
 mire	mire
@@ -13500,6 +13516,7 @@ muted	muted
 mutter	mutter
 mutton	mutton
 mutual	mutual
+mutualism	mutualism
 mutually	mutually
 muze	muze
 # mv	mv
@@ -14093,6 +14110,9 @@ obligations	obligations
 oblige	oblige
 obliged	obliged
 oblique	oblique
+oblivion	oblivion
+oblivious	oblivious
+obliviously	obliviously
 oblong	oblong
 # obs	obs
 obscene	obscene
@@ -14159,6 +14179,7 @@ ochre	ochre
 Oct.	Oct.
 octagon	octagon
 octagonal	octagonal
+octahedron	octahedron
 octave	octave
 octet	octet
 October	October
@@ -14773,6 +14794,7 @@ paranormal	paranormal
 paraphernalia	paraphernalia
 paraphilia	paraphilia
 parasite	parasite
+parasitism	parasitism
 parcel	parcel
 parcels	parcels
 pardon	pardon
@@ -14965,6 +14987,7 @@ peat	peat
 peatland	peatland
 pebble	pebble
 peck	peck
+pecker	pecker
 pectoral	pectoral
 peculiar	peculiar
 peculiarity	peculiarity
@@ -15043,6 +15066,7 @@ percentile	percentile
 perception	perception
 perceptions	perceptions
 perch	perch
+percolate	percolate
 percussion	percussion
 # percy	percy
 perennial	perennial
@@ -15073,7 +15097,9 @@ periods	periods
 peripheral	peripheral
 peripherals	peripherals
 perish	perish
+perk	perk
 Perkins	Perkins
+perky	perky
 Perl	Perl
 permalink	permalink
 permanent	permanent
@@ -15091,6 +15117,7 @@ perpetual	perpetual
 perplex	perplex
 perplexities	perplexities
 perplexity	perplexity
+perquisite	perquisite
 perry	perry
 # pers	pers
 persecute	persecute
@@ -15288,6 +15315,7 @@ pig	pig
 pigeon	pigeon
 pigment	pigment
 pigs	pigs
+pigsty	pigsty
 pike	pike
 Pilates	Pilates
 pile	pile
@@ -18828,6 +18856,7 @@ skips	skips
 skirt	skirt
 skirts	skirts
 skis	skis
+skittish	skittish
 # sku	sku
 skull	skull
 skunk	skunk
@@ -18853,6 +18882,7 @@ slave	slave
 slaver	slaver
 slavery	slavery
 slaves	slaves
+slay	slay
 slayer	slayer
 # sle	sle
 sleazydream	sleazydream
@@ -18867,6 +18897,7 @@ sleeve	sleeve
 sleeves	sleeves
 slender	slender
 slept	slept
+slew	slew
 # sli	sli
 slice	slice
 sliced	sliced
@@ -20198,6 +20229,7 @@ syllabus	syllabus
 Sylvia	Sylvia
 symantec	symantec
 Symbian	Symbian
+symbiosis	symbiosis
 symbiotic	symbiotic
 symbol	symbol
 symbolic	symbolic
@@ -20358,6 +20390,7 @@ tapping	tapping
 taps	taps
 tar	tar
 # tara	tara
+tardy	tardy
 target	target
 targeted	targeted
 targeting	targeting
@@ -20590,6 +20623,7 @@ testing	testing
 testis	testis
 testosterone	testosterone
 tests	tests
+tetrahedron	tetrahedron
 Tetris	Tetris
 tex	tex
 Texans	Texans
@@ -21507,6 +21541,7 @@ ulster	ulster
 ultima	ultima
 ultimate	ultimate
 ultimately	ultimately
+ultimatum	ultimatum
 ultra	ultra
 ultram	ultram
 ultrasonic	ultrasonic
