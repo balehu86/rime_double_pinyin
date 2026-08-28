@@ -128,10 +128,8 @@ function f.init(env)
     local ok, obj = pcall(function() return ReverseLookup(REVERSE_DICT_NAME) end)
     if ok then
         reverse = obj
-        -- log.error('[aux_anywhere] ReverseLookup(' .. REVERSE_DICT_NAME .. ') loaded OK')
     else
         reverse = nil
-        -- log.error('[aux_anywhere] ReverseLookup(' .. REVERSE_DICT_NAME .. ') FAILED: ' .. tostring(obj))
     end
 
     env.commit_notifier = env.engine.context.commit_notifier:connect(function(ctx)
@@ -141,16 +139,12 @@ function f.init(env)
         local text, codes = resolve(raw, env)
         if not text then return end
 
-        -- log.error('[aux_anywhere] resolved on commit: raw=' .. raw .. ' text=' .. text .. ' codes=' .. table.concat(codes, ' '))
-
         local entry = DictEntry()
         entry.text = text
-        entry.custom_code = table.concat(codes, ' ')
+        entry.custom_code = table.concat(codes, ' ') .. ' '
         if env.mem.start_session then env.mem:start_session() end
         env.mem:update_userdict(entry, 1, '')
         if env.mem.finish_session then env.mem:finish_session() end
-
-        log.error('[aux_anywhere] write to userdict: ' .. text .. ' code=' .. entry.custom_code)
     end)
 end
 
